@@ -8,17 +8,17 @@ export default function Footer() {
   return (
     <footer className="bg-white text-black py-12">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 justify-center">
           <div className="lg:col-span-2">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
               <div className="mb-4 lg:mb-0">
                 <img src="https://via.placeholder.com/150" alt="Logo" className="h-12 w-auto mx-auto lg:mx-0" />
               </div>
               <div className="sm:col-span-1">
-                <h2 className="text-lg font-semibold mb-4">Pages</h2>
-                <ul className="space-y-2">
+                <h2 className="text-lg font-semibold mb-4">More Links</h2>
+                <ul className="space-y-2 text-sm">
                   <li>
-                    <Link to="/" className="hover:text-indigo-500">Home</Link>
+                    <Link to="/" className="hover:text-indigo-500">Career</Link>
                   </li>
                   <li>
                     <Link to="/about" className="hover:text-indigo-500">About Us</Link>
@@ -28,16 +28,20 @@ export default function Footer() {
                   </li>
                   <li>
                     <Link to="/contact" className="hover:text-indigo-500">Contact Us</Link>
+                    
+                  </li>
+                  <li>
+                    <Link to="/contact" className="hover:text-indigo-500">Privacy-Policy</Link>
                   </li>
                 </ul>
               </div>
               <div className="sm:col-span-1">
                 <h2 className="text-lg font-semibold mb-4">Contact Us</h2>
-                <div className="flex items-center mb-2">
+                <div className="flex items-center mb-2 text-sm">
                   {/* <MailIcon className="h-5 w-5 mr-2" /> */}
                   <span>info@example.com</span>
                 </div>
-                <div className="flex items-center">
+                <div className="flex items-center text-sm">
                   <PhoneIcon className="h-5 w-5 mr-2" />
                   <span>+123 456 7890</span>
                 </div>
@@ -48,9 +52,9 @@ export default function Footer() {
             <div className="flex flex-col justify-center items-center space-y-4">
               <h2 className="text-lg font-semibold mb-4">Follow Us</h2>
               <div className="flex space-x-4">
-                <a href="#" className="text-gray-300 hover:text-black"><FontAwesomeIcon icon={faFacebookF} /></a>
-                <a href="#" className="text-gray-300 hover:text-black"><FontAwesomeIcon icon={faTwitter} /></a>
-                <a href="#" className="text-gray-300 hover:text-black"><FontAwesomeIcon icon={faInstagram} /></a>
+                <a href="#" className="text-gray-600 hover:text-black"><FontAwesomeIcon icon={faFacebookF} /></a>
+                <a href="#" className="text-gray-600 hover:text-black"><FontAwesomeIcon icon={faTwitter} /></a>
+                <a href="#" className="text-gray-600 hover:text-black"><FontAwesomeIcon icon={faInstagram} /></a>
               </div>
             </div>
           </div>

@@ -39,7 +39,7 @@ export default function Example() {
                     <h3 className="text-lg font-semibold">{report.name}</h3>
                     <p className="text-gray-600 mb-4">{report.description}</p>
                     <div className="flex justify-center mb-4">
-                      <button className="px-4 py-2 bg-gray-600 text-white rounded hover:bg-indigo-700">View Details</button>
+                      <button className="px-4 py-2 bg--600 text-white rounded hover:bg-indigo-700">View Details</button>
                     </div>
                     <div className="flex justify-between items-center">
                       <span className="font-semibold text-gray-900">{report.price}</span>
